@@ -239,7 +239,7 @@ $(call project-set-path-variant,ril,TARGET_RIL_VARIANT,hardware/ril)
 
 -include vendor/extra/BoardConfigExtra.mk
 ifneq ($(HAVOC_BUILD),)
-include vendor/havoc/config/BoardConfigHavoc.mk
+include vendor/united/config/BoardConfigHavoc.mk
 endif
 
 # The build system exposes several variables for where to find the kernel
