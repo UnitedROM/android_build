@@ -924,16 +924,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   device = target_info.GetBuildProp("ro.product.device")
 
   script.Print("*****************************************************"); 
-  script.Print("                                                     "); 
-  script.Print("         dMP dMP .aMMMb  dMP dMP .aMMMb  .aMMMb      "); 
-  script.Print("        dMP dMP dMP'dMP dMP dMP dMP'dMP dMP'VMP      "); 
-  script.Print("       dMMMMMP dMMMMMP dMP dMP dMP dMP dMP           "); 
-  script.Print("      dMP dMP dMP dMP  YMvAP' cMP.aMP dMP.aMP        "); 
-  script.Print("     dMP dMP dMP dMP    VP'   VMMMP'  VMMMP'         "); 
-  script.Print("                                                     "); 
-  script.Print("*****************************************************"); 
   script.Print("******************** Android 10.0 *******************"); 
-  script.Print("**************** Welcome to Havoc-OS ****************"); 
+  script.Print("*************** Welcome to UnitedROM ****************"); 
   script.Print("*****************************************************"); 
   script.Print(" Android Version : %s"%(android_version));
   script.Print(" Build ID        : %s"%(build_id));
