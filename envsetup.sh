@@ -656,13 +656,13 @@ function lunch()
         # if we can't find a product, try to grab it off the Havoc-OS GitHub
         T=$(gettop)
         cd $T > /dev/null
-        vendor/havoc/build/tools/roomservice.py $product
+        vendor/united/build/tools/roomservice.py $product
         cd - > /dev/null
         check_product $product
     else
         T=$(gettop)
         cd $T > /dev/null
-        vendor/havoc/build/tools/roomservice.py $product true
+        vendor/united/build/tools/roomservice.py $product true
         cd - > /dev/null
     fi
 
@@ -1620,4 +1620,4 @@ addcompletions
 
 export ANDROID_BUILD_TOP=$(gettop)
 
-. $ANDROID_BUILD_TOP/vendor/havoc/build/envsetup.sh
+. $ANDROID_BUILD_TOP/vendor/united/build/envsetup.sh
