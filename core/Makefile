@@ -1873,7 +1873,7 @@ define build-recoveryramdisk
 endef
 else
 define build-recoveryramdisk
-  $(hide) ./vendor/havoc/tools/changelog.sh
+  $(hide) ./vendor/united/tools/changelog.sh
   $(hide) mv $(PRODUCT_OUT)/Changelog.txt $(PRODUCT_OUT)/$(HAVOC_BUILD_VERSION)-Changelog.txt
   @echo ----- Making recovery image ------
   $(hide) mkdir -p $(TARGET_RECOVERY_OUT)
